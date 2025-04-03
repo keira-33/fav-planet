@@ -176,10 +176,10 @@ h6, .h6 {
 }
 
 .btn-transparent {
-  color: #f7463a;
+  color: #3a40f7;
   border: 0;
   padding-left: 0;
-  background: linear-gradient(37deg, rgb(180, 62, 121) 1%, rgb(247, 70, 58) 100%);
+  background: linear-gradient(37deg, rgb(62, 129, 180) 1%, rgb(58, 247, 225) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -284,7 +284,7 @@ a:hover {
 .section-border {
   height: 9px;
   width: 220px;
-  background: linear-gradient(37deg, rgb(180, 62, 121) 1%, rgb(247, 70, 58) 100%);
+  background: linear-gradient(37deg, rgb(62, 156, 180) 1%, rgb(247, 247, 58) 100%);
   border-radius: 5px;
   margin: 40px auto 90px;
 }
@@ -540,7 +540,8 @@ textarea.form-control {
   transition: 0.3s ease;
 }
 .navigation.nav-bg {
-  background-color: #07085d;
+  /* background-color: #07085d; */
+  background: rgb(12, 96, 135);
   padding: 15px 100px;
 }
 @media (max-width: 991px) {
@@ -551,7 +552,9 @@ textarea.form-control {
 @media (max-width: 991px) {
   .navigation {
     padding: 20px;
-    background: #07085d;
+    /* background: #07085d; */
+    background: rgb(12, 96, 135);
+    /* background: rgb(255, 255, 255); */
   }
 }
 
@@ -590,6 +593,11 @@ textarea.form-control {
 
 .navbar-dark .navbar-nav .nav-link {
   color: #fff;
+}
+
+.navbar-brand img {
+  height: 70px; 
+  width: auto;
 }
 
 .banner {
@@ -793,7 +801,7 @@ footer .overlay-image {
   box-shadow: 0px 9px 24px 0px rgba(19, 5, 44, 0.21);
 }
 .progress-block .progress-bar {
-  background: linear-gradient(37deg, rgb(180, 62, 121) 1%, rgb(247, 70, 58) 100%);
+  background: linear-gradient(37deg, rgb(35, 92, 135) 1%, rgb(105, 205, 135) 100%);
   width: 0;
   transition: all 3s ease-in-out;
   top: 0;
